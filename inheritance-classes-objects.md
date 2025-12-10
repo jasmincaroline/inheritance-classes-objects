@@ -70,7 +70,7 @@ logs "I am studying right now."
 Expected output pattern
 Hello, I am Maria.
 I am studying right now.
-----
+
 ## And... as Linus Torvalds said: "Show me the code":
 ```js
 class Person {
@@ -109,20 +109,17 @@ method turnOn() → "The {brand} appliance is now on."
 
 2- Subclass Microwave:
 
-
 calls super(brand)
 overrides turnOn():
 super.turnOn()
 logs "The {brand} microwave is heating."
 
-
 3 - Create a Microwave and call turnOn().
-
-
 Expected output pattern
 The Samsung appliance is now on.
 The Samsung microwave is heating.
----
+
+
 ## And... as Linus Torvalds said: "Show me the code":
 
 ```js
@@ -174,14 +171,12 @@ then logs:
 "It cannot fly." if canFly is false
 adds a new method sing():
 logs: "🎵 {name} is singing."
-
 3 -  Create two birds: 
----
 One that can fly, e.g., "Eagle"
 One that cannot fly, e.g., "Penguin"
 Call info() and sing() for both.
-Call **info()** and **sing()** for both.
------
+Call info() and sing() for both.
+
 ## And... as Linus Torvalds said: "Show me the code":
 ```js
 class Animal {
