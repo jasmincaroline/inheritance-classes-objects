@@ -219,4 +219,6 @@ const penguin = new Bird("Penguin", false);
 
 eagle.info();
 penguin.info();
+penguin.sing();
+eagle.info();
 ```
